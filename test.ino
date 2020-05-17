@@ -45,15 +45,14 @@ void setup() {
 
   digitalWrite(dirYPin,LOW); 
 
-  println("Test with Monitor Serial");
-  println(" 1 = Pallet Slide LEFT");
-  println(" 0 = Pallet Slide center");
-  println(" 2 = Pallet Slide RIGHT");
-  println(" 4 = Move Right");
-  println(" 5 = Move Left");
-  println(" 6 = Move UP");
-  println(" 7 = Move Down");
-
+  Serial.println("Test with Monitor Serial");
+  Serial.println(" 1 = Pallet Slide LEFT");
+  Serial.println(" 0 = Pallet Slide center");
+  Serial.println(" 2 = Pallet Slide RIGHT");
+  Serial.println(" 4 = Move Right");
+  Serial.println(" 5 = Move Left");
+  Serial.println(" 6 = Move UP");
+  Serial.println(" 7 = Move Down");
 }
 int istep = 2500;
 int state = 0;
